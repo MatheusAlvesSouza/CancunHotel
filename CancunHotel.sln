@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Api", "CancunHotel\CancunHotel.Api.csproj", "{14CF054D-67D1-4AEF-96A7-68D16202D54E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{67E9C122-3422-4F0A-B07E-E29A630BA7AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Test", "test\CancunHotel.Test\CancunHotel.Test.csproj", "{ECE99180-192E-43C7-850D-FA8398B6AD49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{3414E49B-7A7D-4AED-9938-E9564A6EB0D9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14CF054D-67D1-4AEF-96A7-68D16202D54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CF054D-67D1-4AEF-96A7-68D16202D54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CF054D-67D1-4AEF-96A7-68D16202D54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CF054D-67D1-4AEF-96A7-68D16202D54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE99180-192E-43C7-850D-FA8398B6AD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE99180-192E-43C7-850D-FA8398B6AD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE99180-192E-43C7-850D-FA8398B6AD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE99180-192E-43C7-850D-FA8398B6AD49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECE99180-192E-43C7-850D-FA8398B6AD49} = {67E9C122-3422-4F0A-B07E-E29A630BA7AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C02987A-314A-4E7C-83BC-E6E023B1E3A2}
+	EndGlobalSection
+EndGlobal
